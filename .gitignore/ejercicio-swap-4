@@ -1,0 +1,24 @@
+# coding: utf8
+# Nombre: Davit Datuashvili
+# Fecha: 21/02/2018
+
+cajon1 = "Movil"
+cajon2 = "Bocadillo"
+cajon3 = "Boli"
+cajon4 = "Bebida"
+mesa = "Espacio libre"
+
+# Pasamos el Movil del cajon1 en la mesa 
+mesa = cajon1
+# Pasamos el Boli del cajon3 en el cajon1 
+cajon1 = cajon3
+# Pasamos el Movil que estaba en la mesa en el cajon 3
+cajon3 = mesa
+# Pasamos el Bocadillo del cajon2 en la mesa
+mesa = cajon2
+# Pasamos la Bebida del cajon4 en el cajon2
+cajon2 = cajon4
+# Pasamos el Bocadillo que estaba en la mesa en el cajon4
+cajon4 = mesa
+
+print "Cajon 1:",cajon1,",","Cajon 2:", cajon2,",","Cajon 3:", cajon3,",","Cajon 4: ", cajon4
