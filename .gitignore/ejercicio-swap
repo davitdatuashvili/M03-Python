@@ -1,0 +1,11 @@
+# coding: utf8
+# Nombre: Davit Datuashvili
+# Fecha: 8/02/2018
+
+mano_der="movil"
+mano_izq="bocadillo"
+mano_extra="ayuda"
+
+mano_extra=mano_der
+mano_der=mano_izq
+mano_izq=mano_extra
