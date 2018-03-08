@@ -1,0 +1,26 @@
+#coding: utf8
+#Nombre: Davit Datuashvili
+#Fecha: 05/03/2018
+
+# Inicializaciones
+salir = "N"
+num = 0
+
+pregunta = input ("Hasta dónde desea que cuente?: ")
+
+if (pregunta < 0):
+    print "No se admiten números negativos"
+    salir = "S"
+if (pregunta % 2 == 0):
+
+    while ( salir=="N" ):
+        # Hago cosas
+        print num
+    
+        # Incremento
+        num = num +2
+        # Activo indicador de salida si toca
+        if ( num > pregunta ): # Condición de salida
+               salir = "S"
+else:
+    print "No se admiten impares"
