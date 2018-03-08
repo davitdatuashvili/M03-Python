@@ -1,0 +1,17 @@
+#coding: utf8
+#Nombre: Davit Datuashvili
+#Fecha: 05/03/2018
+
+# Inicializaciones
+salir = "N"
+anio = 2010
+
+while ( salir=="N" ):
+    # Hago cosas
+    print "informes del año:", anio
+
+    # Incremento
+    anio = anio +1
+    # Activo indicador de salida si toca
+    if ( anio == 2017 ): # Condición de salida
+           salir = "S"
