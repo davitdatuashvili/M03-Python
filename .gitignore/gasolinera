@@ -1,0 +1,47 @@
+# coding: utf8
+# Nombre: Davit Datuashvili
+# Fecha: 22/02/2018
+
+super_normal            = 1.5
+super_turbo             = 1.55
+sin_plomo_normal        = 1.6
+sin_plomo_con_adictivos = 1.65
+diesel_normal           = 1.7
+diesel_faf              = 1.75
+
+print """
+
+LISTA DE PRODUCTOS
+
+1 -> Super normal (1.5 €/L)
+2 -> Super turbo (1.55 €/L)
+3 -> Sin plomo normal (1.6 €/L)
+4 -> Sin plomo con adictivos de sabor narnja (1.65 €/L)
+5 -> Diesel normal (1.7 €/L)
+6 -> Diesel Fast&Furius (1.75 €/L) """
+
+pregunta = input ("Introduzca el tipo de gasolina(poner número respectivo): ")
+litros   = input ("Introduzca la cantidad en litros: ")
+
+if (pregunta == 1):
+    suma1 = super_normal * litros
+    print "el precio es:", suma1
+elif (pregunta == 2):
+    suma2 = super_turbo * litros
+    print "el precio es:", suma2
+elif (pregunta == 3):
+    suma3 = sin_plomo_normal * litros
+    print "el precio es:", suma3
+elif (pregunta == 4):
+    suma4 = sin_plomo_con_adictivos * litros
+    print "el precio es:", suma4
+elif (pregunta == 5):
+    suma5 = diesel_normal * litros
+    print "el precio es:", suma5
+elif (pregunta == 6):
+    suma6 = diesel_faf * litros
+    print "el precio es:", suma6
+elif (litros <= 0):
+    print "introduzca un valor válido"
+elif (pregunta < 0 or pregunta > 6):
+    print "introduzca un valor válido"
