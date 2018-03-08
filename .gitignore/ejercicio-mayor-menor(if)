@@ -1,0 +1,24 @@
+# coding: utf8
+# Nombre: Davit Datuashvili
+# Fecha: 12/02/2018
+
+numero_1 = input("indique el número 1: ")
+numero_2 = input("indique el número 2: ")
+numero_3 = input("indique el número 3: ")
+
+if (numero_1 > numero_2) and (numero_1 > numero_3):
+    print numero_, "es mayor que", numero_2, "y" , numero_3
+    print numero_2, "y" ,numero_3, "son menores que", numero_1
+
+else:
+    if (numero_2 > numero_1) and (numero_2 > numero_3):
+    print numero_2, "es mayor que", numero_1, "y" , numero_3
+    print numero_1, "y" ,numero_3, "son menores que", numero_2
+    
+else:
+    if (numero_3 > numero_1) and (numero_3 > numero_2):
+    print numero_3, "es mayor que", numero_1, "y" , numero_2
+    print numero_1, "y" ,numero_2, "son menores que", numero_3
+
+else:
+	print "No se permiten valores iguales"
