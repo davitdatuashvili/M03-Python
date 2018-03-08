@@ -1,0 +1,15 @@
+# coding: utf8
+# Nombre: Davit Datuashvili
+# Fecha: 13/02/2018
+
+dividendo = input ("escriba el dividendo: ")
+divisor = input ("escriba el divisor: ")
+resto = dividendo % divisor
+cociente = dividendo / divisor
+
+
+else:
+    if(resto == 0):
+        print "La división es exacta. Cociente: ", cociente
+    else:
+        print "La división no es exacta. Cociente: ", cociente, "Resto: ", resto
